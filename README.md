@@ -5,10 +5,10 @@
 #### [Sprint 0](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/README.md#sprint-0-week)
 
 ## Project Ideation 🚀
-Unique Idea: Describe Project Description here<br>
+Our project intends to build up women in STEM. Women in STEM that empower the goals of science. Quiz- are you a good advocate for women's rights? Users can sign up. API list of powerful women in STEM.<br>
 
 ## Visual Thoughts 🖥
-Home page: describe Project Plans/Ideas/Wires here<br>
+Visually it should look black and green/blue to break the stereotypes of women in STEM.<br>
 
 ## Contributors 👋⚡️
 | Name | GitHub ID and Profile | Static Site | Role |
@@ -22,4 +22,4 @@ Home page: describe Project Plans/Ideas/Wires here<br>
 ## Sprint 0 Week
 1. Web Project: Project Description, Project Plans/Ideas/Wires, Time box
 2. Team Roles described, Project Owner or Sponsor described, Scrum Board started
-3. Individual GitHub pages (3 points) GitHub page for Test Prep study, requiring 5.1 to 5.6 notes and actions( See "GitHub pages actions" at the bottom of each TPT page on cspcoders (Links to an external site.)), GitHub page that documents Data Structures project, using code snippets for key learnings, and links to  GitHub for code and Replit for runtime, GitHub page that documents intended Create Task project for College Board, snippets, and links to Runtime
+3. Individual GitHub pages (3 points) GitHub page for Test Prep study, requiring 5.1 to 5.6 notes and actions( See "GitHub pages actions" at the bottom of each TPT page on cspcoders (Links to an external site.)), GitHub page that documents Data Structures project, using code snippets for key learnings, and links to  GitHub for code and Replit for runtime, GitHub page that documents intended Create Task project for College Board, snippets, and links to Runtime.
