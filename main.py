@@ -7,20 +7,15 @@ import requests
 app = Flask(__name__)
 
 
-from crud3.app_crud import app_crud
-
 #from gigiChat import app_gigiChat
 #app.register_blueprint(app_gigiChat)
 
 # create a Flask instance
 
-app.register_blueprint(app_crud)
+
 
 
 # connects default URL to render index.html
-@app.route('/')
-def home():
-    return render_template("api/unUsed/home.html")
 
 @app.route('/anikaCraft')
 def anikaCraft():
@@ -72,9 +67,7 @@ def search():
     return render_template("search.html")
 
 
-@app.route('/crud')
-def crud():
-    return render_template("crud.html")
+
 
 @app.route('/goalsCl')
 def goalsCl():
