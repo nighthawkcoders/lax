@@ -5,7 +5,7 @@
 #### [Sprint 0](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/README.md#sprint-0-week)
 
 ## Project Ideation 🚀
-Our project intends to build up women in STEM. Women in STEM that empower the goals of science. Quiz- are you a good advocate for women's rights? Users can sign up. API list of powerful women in STEM.<br>
+Our project intends to build up women in STEM. Women in STEM that empower the goals of science. Quiz- are you a good advocate for women's rights? Users can sign up. API list of powerful women in STEM. Forum on feelings.<br>
 
 ## Visual Thoughts 🖥
 Visually it should look black and green/blue to break the stereotypes of women in STEM.<br>
