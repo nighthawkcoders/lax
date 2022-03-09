@@ -2,7 +2,7 @@
 
 #### [Scrum Board](https://github.com/christinlee367/womenInSTEMandDavid/projects/1)
 
-#### [Sprint 0]()
+#### [Sprint 0](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/README.md#sprint-0-week)
 
 ## Project Ideation 🚀
 Unique Idea: Describe Project Description here Project Plans/Ideas/Wires<br>
@@ -20,3 +20,6 @@ Home page: describe Project Plans/Ideas/Wires here<br>
 | Kaavya Raamkumar | [@anika1sharma1](https://github.com/anika1sharma1) | [Site](https://github.com/rkaavya/rkaavya.github.io) | Idk
 
 ## Sprint 0 Week
+1. Web Project: Project Description, Project Plans/Ideas/Wires, Time box
+2. Team Roles described, Project Owner or Sponsor described, Scrum Board started
+3. Individual GitHub pages (3 points) GitHub page for Test Prep study, requiring 5.1 to 5.6 notes and actions( See "GitHub pages actions" at the bottom of each TPT page on cspcoders (Links to an external site.)), GitHub page that documents Data Structures project, using code snippets for key learnings, and links to  GitHub for code and Replit for runtime, GitHub page that documents intended Create Task project for College Board, snippets, and links to Runtime
