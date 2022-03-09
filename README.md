@@ -5,7 +5,7 @@
 #### [Sprint 0](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/README.md#sprint-0-week)
 
 ## Project Ideation 🚀
-Unique Idea: Describe Project Description here Project Plans/Ideas/Wires<br>
+Unique Idea: Describe Project Description here<br>
 
 ## Visual Thoughts 🖥
 Home page: describe Project Plans/Ideas/Wires here<br>
