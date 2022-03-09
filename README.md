@@ -16,7 +16,7 @@ Home page: describe Project Plans/Ideas/Wires here<br>
 | Christina Lee | [@christinlee367](https://github.com/christinlee367) | [Site](https://github.com/christinlee367/christinlee367.github.io) | Idk
 | Bria Gilliam | [@gigiguan](https://github.com/gigiguan) | [Site](http://b-g101.github.io) | Idk
 | Allison Huang | [@allisonthuang](https://github.com/allisonthuang) | [Site](http://allisonthuang/allisonthuang.github.io) | Scrum Master
-| David Xie | [@David-Xie123](https://github.com/David-Xie123) | [Site](https://github.com/David-Xie123/David-Xie123.github.io) | Idk
+| David Xie | [@David-Xie123](https://github.com/David-Xie123) | [Site](https://github.com/David-Xie123/David-Xie123.github.io) | Web Designer
 | Kaavya Raamkumar | [@rkaavya](https://github.com/rkaavya) | [Site](https://github.com/rkaavya/rkaavya.github.io) | Idk
 
 ## Sprint 0 Week
