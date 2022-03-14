@@ -21,7 +21,7 @@ Visually it should look black and green/blue to break the stereotypes of women i
 | David Xie | [@David-Xie123](https://github.com/David-Xie123) | [Site](https://github.com/David-Xie123/David-Xie123.github.io) | Web Designer
 | Kaavya Raamkumar | [@rkaavya](https://github.com/rkaavya) | [Site](https://github.com/rkaavya/rkaavya.github.io) | Deployment Manager
 
-## Sprint 0 Week
+## [Sprint 0 Week](https://github.com/christinlee367/womenInSTEMandDavid/issues/2)
 1. Web Project: [Project Description, Project Plans/Ideas/Wires, Time box](https://github.com/christinlee367/womenInSTEMandDavid#readme)
 2. [Team Roles described, Project Owner or Sponsor described, Scrum Board started](https://github.com/christinlee367/womenInSTEMandDavid#readme)
 
