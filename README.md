@@ -25,6 +25,6 @@ Visually it should look black and green/blue to break the stereotypes of women i
 1. Web Project: [Project Description, Project Plans/Ideas/Wires, Time box](https://github.com/christinlee367/womenInSTEMandDavid#readme)
 2. [Team Roles described, Project Owner or Sponsor described, Scrum Board started](https://github.com/christinlee367/womenInSTEMandDavid#readme)
 
-## Sprint 1 Week
+## [Sprint 1 Week](https://github.com/christinlee367/womenInSTEMandDavid/issues/7)
 1. [Project Owner initial requirements and derivative tangibles](https://github.com/christinlee367/womenInSTEMandDavid#readme)
 2. [Requirements and Jobs assigned to each individuals listed on Scrum Board, including at least one in progress task](https://github.com/christinlee367/womenInSTEMandDavid/projects/1)
