@@ -2,7 +2,7 @@
 
 #### [Scrum Board](https://github.com/christinlee367/womenInSTEMandDavid/projects/1)
 
-#### [Sprint 0](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/README.md#sprint-0-week)
+#### [Sprint 0](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/README.md#sprint-0-week), [Sprint 1](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/README.md#sprint-1-week)
 
 #### [Wireframe](https://www.canva.com/design/DAE6m-UrSR8/yqld9qaJDKFndcBVq9Mb5Q/view?utm_content=DAE6m-UrSR8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
