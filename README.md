@@ -9,7 +9,7 @@
 ## Project Ideation 🚀
 Our project intends to build up women in STEM. Women in STEM that empower the goals of science. Quiz- are you a good advocate for women's rights? Users can sign up. API list of powerful women in STEM. Forum on feelings- How are you feeling today? Mrs. Naidu is going to be our sponsor.<br>
 
-Notes from Mrs. Sullivan: Some of their athletics teams have websites. Like swim and dive, [football](https://www.dnfootball.com/) and [volleyball](https://dnhsboysvolleyball.com/). It has calendars, schedules, registration, information for parents, sponsorships, about us, staff, rosters, photo uploads, search bars, contacts and donation information.
+Notes from Mrs. Sullivan: Some of their athletics teams have websites. Like [football](https://www.dnfootball.com/) and [volleyball](https://dnhsboysvolleyball.com/). It has calendars, schedules, registration, information for parents, sponsorships, about us, staff, rosters, photo uploads, search bars, contacts and donation information.
 - Lacrosse foundation... She said she'd be happy with something like volleyball's site.
 - Work with her on hosting
 
