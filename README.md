@@ -19,7 +19,7 @@ Visually it should look black and green/blue to match the school colors and the 
 ## Contributors 👋⚡️
 | Name | GitHub ID and Profile | Static Site | Role |
 |:-----|:----------------------|:------|:--------|
-| Christina Lee | [@christinlee367](https://github.com/christinlee367) | [Site](https://github.com/christinlee367/christinlee367.github.io) | GitHub Admin
+| Christina Lee | [@christinlee367](https://github.com/christinlee367) | [Site](https://christinlee367.github.io/) | GitHub Admin
 | Bria Gilliam | [@B-G101](https://github.com/B-G101) | [Site](http://b-g101.github.io) | TO
 | Allison Huang | [@allisonthuang](https://github.com/allisonthuang) | [Site](http://allisonthuang.github.io) | Scrum Master
 | David Xie | [@David-Xie123](https://github.com/David-Xie123) | [Site](https://github.com/David-Xie123/David-Xie123.github.io) | Web Designer
