@@ -21,6 +21,7 @@ Mrs. Sullivan: Some of their athletics teams have websites. Like [football](http
 Visually it should look black and green/blue to match the school colors and the lacross team uniforms.<br>
 
 ## Contributors 👋⚡️
+
 | Name | GitHub ID and Profile | Static Site | Role |
 |:-----|:----------------------|:------|:--------|
 | Christina Lee | [@christinlee367](https://github.com/christinlee367) | [Site](https://christinlee367.github.io/) | GitHub Admin
