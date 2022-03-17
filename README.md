@@ -7,14 +7,14 @@
 #### [Wireframe](https://www.canva.com/design/DAE6m-UrSR8/yqld9qaJDKFndcBVq9Mb5Q/view?utm_content=DAE6m-UrSR8&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 ## Project Ideation 🚀
-Our project intends to build up women in STEM. Women in STEM that empower the goals of science. Quiz- are you a good advocate for women's rights? Users can sign up. API list of powerful women in STEM. Forum on feelings- How are you feeling today? Mrs. Naidu is going to be our sponsor.<br>
+Our project is meant to provide a home to the athletics information for Del Norte. We are planning to create a website similar to the football and volleyball page on the Del Norte Website for the lacross team store their team information. It's going to have calendars, schedules, registration, information for parents, sponsorships, about us, staff, rosters, photo uploads, search bars, contacts and donation information. Users can sign up. Our sponsor for this project is Mrs. Sullivan. <br>
 
-Notes from Mrs. Sullivan: Some of their athletics teams have websites. Like [football](https://www.dnfootball.com/) and [volleyball](https://dnhsboysvolleyball.com/). It has calendars, schedules, registration, information for parents, sponsorships, about us, staff, rosters, photo uploads, search bars, contacts and donation information.
+Notes from Mrs. Sullivan: Some of their athletics teams have websites. Like [football](https://www.dnfootball.com/) and [volleyball](https://dnhsboysvolleyball.com/). 
 - Lacrosse foundation... She said she'd be happy with something like volleyball's site.
 - Work with her on hosting
 
 ## Visual Thoughts 🖥
-Visually it should look black and green/blue to break the stereotypes of women in STEM.<br>
+Visually it should look black and green/blue to match the school colors and the lacross team uniforms.<br>
 
 ## Contributors 👋⚡️
 | Name | GitHub ID and Profile | Static Site | Role |
