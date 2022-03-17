@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## Contributors 👋⚡️
 
 | Name | GitHub ID and Profile | Static Site | Role |
