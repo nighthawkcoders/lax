@@ -6,11 +6,11 @@
 
 | Title | Link to the Spot |
 |--------------------- | ------------------|
-| Project Ideation | [https://christinlee367.github.io/womenInSTEMandDavid/visual#project-ideation](https://christinlee367.github.io/womenInSTEMandDavid/visual#project-ideation) |
-| Requirements From Sponsor | [https://christinlee367.github.io/womenInSTEMandDavid/visual#requirements-from-our-sponsor](https://christinlee367.github.io/womenInSTEMandDavid/visual#requirements-from-our-sponsor) |
-| Visual Thoughts | [https://christinlee367.github.io/womenInSTEMandDavid/visual#visual-thoughts](https://christinlee367.github.io/womenInSTEMandDavid/visual#visual-thoughts) |
-| Wireframes | [https://christinlee367.github.io/womenInSTEMandDavid/visual#wireframes](https://christinlee367.github.io/womenInSTEMandDavid/visual#wireframes) |
-| Visual Inspiration | [https://christinlee367.github.io/womenInSTEMandDavid/visual#visual-inspiration](https://christinlee367.github.io/womenInSTEMandDavid/visual#visual-inspiration) |
+| Project Ideation | [Bookmark](https://christinlee367.github.io/womenInSTEMandDavid/visual#project-ideation) |
+| Requirements From Sponsor | [Bookmark](https://christinlee367.github.io/womenInSTEMandDavid/visual#requirements-from-our-sponsor) |
+| Visual Thoughts | [Bookmark](https://christinlee367.github.io/womenInSTEMandDavid/visual#visual-thoughts) |
+| Wireframes | [Bookmark](https://christinlee367.github.io/womenInSTEMandDavid/visual#wireframes) |
+| Visual Inspiration | [Bookmark](https://christinlee367.github.io/womenInSTEMandDavid/visual#visual-inspiration) |
 
 
 ## Project Ideation 🚀
