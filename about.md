@@ -1,5 +1,7 @@
 {% include navigation.html %}
 
+# [Scrum Board 🚀](https://github.com/christinlee367/womenInSTEMandDavid/projects/1)
+
 ## Sprint 2 Week
 1. [Roster](https://github.com/christinlee367/womenInSTEMandDavid/issues/9)
 2. [Search Bar](https://github.com/christinlee367/womenInSTEMandDavid/issues/12)
