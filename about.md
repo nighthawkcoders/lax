@@ -10,8 +10,9 @@
 | David Xie | [@David-Xie123](https://github.com/David-Xie123) | [Site](https://github.com/David-Xie123/David-Xie123.github.io) | Web Designer
 | Kaavya Raamkumar | [@rkaavya](https://github.com/rkaavya) | [Site](https://github.com/rkaavya/rkaavya.github.io) | Deployment Manager
 
-
-
+## [Sprint 1 Week](https://github.com/christinlee367/womenInSTEMandDavid/issues/7)
+1. [Project Owner initial requirements and derivative tangibles](https://github.com/christinlee367/womenInSTEMandDavid#readme)
+2. [Requirements and Jobs assigned to each individuals listed on Scrum Board, including at least one in progress task](https://github.com/christinlee367/womenInSTEMandDavid/projects/1)
 
 ## [Sprint 0 Week](https://github.com/christinlee367/womenInSTEMandDavid/issues/2)
 1. Web Project: [Project Description, Project Plans/Ideas/Wires, Time box](https://github.com/christinlee367/womenInSTEMandDavid#readme)
