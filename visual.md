@@ -25,6 +25,9 @@ Mrs. Sullivan: Some of their athletics teams have websites. Like [football](http
 ## Visual Thoughts 🖥
 Visually it should look black and green/blue to match the school colors and the lacross team uniforms.<br>
 
+## License 💡
+[Actual license](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/LICENSE)
+<img width="1440" alt="Screen Shot 2022-03-24 at 10 59 37 AM" src="https://user-images.githubusercontent.com/89219200/159980673-70f1a3d6-f42e-49a1-9402-65ebb8169a0e.png">
 
 ### Wireframes
 ***
