@@ -42,3 +42,7 @@ Visually it should look black and green/blue to match the school colors and the 
 ![](https://i.postimg.cc/bwLW3YKZ/Screen-Shot-2022-03-18-at-11-41-12-AM.png)
 ![](https://i.postimg.cc/mr5qWXZR/Screen-Shot-2022-03-18-at-11-42-17-AM.png)
 ![](https://i.postimg.cc/c4ypJbRL/Screen-Shot-2022-03-18-at-11-42-25-AM.png)
+
+### PII Concerns
+Some concerns of including a database or PII in our website is that the personal information of lacrosse team members (such as name, date of birth, email, etc.) can be taken through hacking or phishing. We plan to address this issue by either not requiring users to input this information, or by requiring further authentication  such as security phrases, forgetting the password email feature, facial recognition, etc. to verify the user. For photo distribution we plan to have a privacy policy stated that explains that the users are giving up the rights to these photos. We also plan to create and establish a secure domain for the website to also prevent attempts of hacking and phishing. 
+
