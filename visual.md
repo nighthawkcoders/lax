@@ -20,13 +20,13 @@ Our project is meant to provide a home to the athletics information for Del Nort
 Mrs. Sullivan: Some of their athletics teams have websites. Like [football](https://www.dnfootball.com/) and [volleyball](https://dnhsboysvolleyball.com/). 
 - Lacrosse foundation... She said she'd be happy with something like volleyball's site.
 - Wants somewhere to store photos and basically all the information like scheudules, rosters, donations, and etc.
-- Work with her on hosting
+- Domain name is already purchased, working with Mrs. Sullivan and BJ Wroten to get this up
 
 ## Visual Thoughts 🖥
 Visually it should look black and green/blue to match the school colors and the lacross team uniforms.<br>
 
 ## License 💡
-[Actual license](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/LICENSE)
+[Actual license](https://github.com/christinlee367/womenInSTEMandDavid/blob/main/LICENSE)- The Creative Commons CC0 Public Domain Dedication waives copyright intereste in a work you've created, dedicates it to the world wide web domain. Want it to be accessible to other teams who don't know how.
 
 <img width="1440" alt="Screen Shot 2022-03-24 at 10 59 37 AM" src="https://user-images.githubusercontent.com/89219200/159980673-70f1a3d6-f42e-49a1-9402-65ebb8169a0e.png">
 
