@@ -2,6 +2,10 @@
 
 # [Scrum Board 🚀](https://github.com/christinlee367/womenInSTEMandDavid/projects/1)
 
+## [Sprint 3 Week](https://github.com/christinlee367/womenInSTEMandDavid/issues/19)
+1. Project Owner / Sponsor presentation(visuals like wireframes or HTML pages), results of review, PII concerns, hosting plan, and software license
+2. 1st Code in GitHub with software license per 5.5
+
 ## Sprint 2 Week
 1. [Roster](https://github.com/christinlee367/womenInSTEMandDavid/issues/9)
 2. [Search Bar](https://github.com/christinlee367/womenInSTEMandDavid/issues/12)
