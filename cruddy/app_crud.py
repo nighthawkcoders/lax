@@ -40,6 +40,7 @@ def crud_login():
     if request.form:
         email = request.form.get("email")
         password = request.form.get("password")
+
         if login(email, password):       # zero index [0] used as email is a tuple
             return redirect(url_for('crud.crud'))
 
