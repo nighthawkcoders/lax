@@ -1,7 +1,11 @@
-from flask import Flask, render_template, request
+from flask import render_template
+from __init__ import app
 
+from cruddy.app_crud import app_crud
+
+
+app.register_blueprint(app_crud)
 # create an instance of flask object
-app = Flask(__name__)
 
 
 # home page accessed with http://127.0.0.1:5000/
@@ -10,10 +14,6 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-
-@app.route("/about/")
-def about():
-    return render_template("layouts/about.html")
 
 
 

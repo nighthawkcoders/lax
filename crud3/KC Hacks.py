@@ -65,8 +65,8 @@ def is_password_match(self, password):
 
 # query.py
 
-from __init__ import login_manager, db
-from cruddy.model import Users
+from __init__ import login_manager
+from model import Users
 from flask_login import current_user, login_user, logout_user
 
 # login user based off of email and password

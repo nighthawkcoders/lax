@@ -7,7 +7,7 @@ from cruddy.query import *
 # blueprint defaults https://flask.palletsprojects.com/en/2.0.x/api/#blueprint-objects
 app_crud = Blueprint('crud', __name__,
                      url_prefix='/crud',
-                     template_folder='templates/cruddy/',
+                     template_folder='templates',
                      static_folder='static',
                      static_url_path='static')
 
@@ -16,9 +16,6 @@ app_crud = Blueprint('crud', __name__,
     2.) Control methods are achieved using app routes for each CRUD operations
     3.) login required to restrict CRUD operations to identified users
 """
-@app.route('/login')
-def login():
-    return render_template("login.html")
 
 
 # Default URL for Blueprint
