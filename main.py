@@ -23,4 +23,9 @@ def index():
 #    hide_msg()
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # runs the application on the repl development server
+    app.run(
+	    host='0.0.0.0',
+	    debug=True,
+	    port=8080
+    )
