@@ -25,7 +25,7 @@ def index():
 if __name__ == "__main__":
     # runs the application on the repl development server
     app.run(
-	    host='127.0.0.1',
+	    host='0.0.0.0',
 	    debug=True,
 	    port=8080
     )
