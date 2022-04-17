@@ -1,5 +1,5 @@
 from flask import render_template
-from __init__ import app
+from __init__ import app, COOKIE_TIME_OUT
 
 from cruddy.app_crud import app_crud
 
@@ -25,7 +25,7 @@ def index():
 if __name__ == "__main__":
     # runs the application on the repl development server
     app.run(
-	    host='0.0.0.0',
+	    host='127.0.0.1',
 	    debug=True,
 	    port=8080
     )

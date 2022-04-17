@@ -3,6 +3,7 @@ from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
+
 """
 These object will be used throughout project.
 1.) Objects from this file can be included in many blueprints
@@ -21,3 +22,7 @@ Migrate(app, db)
 # Setup LoginManager object (app)
 login_manager = LoginManager()
 login_manager.init_app(app)
+
+global COOKIE_TIME_OUT
+COOKIE_TIME_OUT = 60*60*24*7 #7 days
+# COOKIE_TIME_OUT = 60*5 #5 minutes
