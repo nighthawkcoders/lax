@@ -14,8 +14,9 @@ app.register_blueprint(app_crud)
 def index():
     return render_template("index.html")
 
-
-
+@app.route("/donate/")
+def donate():
+    return render_template("donate.html")
 
 # from image import hide_msg
 # @app.route("/rgbhide")
