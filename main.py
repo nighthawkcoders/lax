@@ -14,9 +14,7 @@ app.register_blueprint(app_crud)
 def index():
     return render_template("index.html")
 
-@app.route("/donate/")
-def donate():
-    return render_template("donate.html")
+
 
 # from image import hide_msg
 # @app.route("/rgbhide")
@@ -26,7 +24,7 @@ def donate():
 if __name__ == "__main__":
     # runs the application on the repl development server
     app.run(
-	    host='0.0.0.0',
+        host='127.0.0.1',
 	    debug=True,
 	    port=8080
     )

@@ -25,6 +25,10 @@ def crud():
     """obtains all Users from table and loads Admin Form"""
     return render_template("crud.html", table=users_all())
 
+@app_crud.route("/donate/")
+@login_required
+def donate():
+    return render_template("donate.html")
 
 # Flask-Login directs unauthorised users to this unauthorized_handler
 @login_manager.unauthorized_handler
