@@ -12,7 +12,9 @@
 
 <!-- CONTENT (in <body>), content for this page -->
 {% block body %}
-    <a href={{url_for('crud.crud_login')}}>Log Out</a>
+    {% if current_user.is_authenticated %}
+        <p style="text-align:right;"> Welcome {{ current_user.name }} <p>
+    {% endif %}
     <div class="container py-4">
         <header class="pb-3 mb-4 border-bottom border-primary text-dark">
             <span class="fs-4">SQL CRUD Admin Page</span>

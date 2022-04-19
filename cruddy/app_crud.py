@@ -1,7 +1,7 @@
 """control dependencies to support CRUD app routes and APIs"""
 from flask import Blueprint, render_template, request, url_for, redirect, jsonify, make_response
 from flask_login import login_required
-
+from __init__ import COOKIE_TIME_OUT
 from cruddy.query import *
 
 # blueprint defaults https://flask.palletsprojects.com/en/2.0.x/api/#blueprint-objects
@@ -20,11 +20,15 @@ app_crud = Blueprint('crud', __name__,
 
 # Default URL for Blueprint
 @app_crud.route('/')
-@login_required  # Flask-Login uses this decorator to restrict acess to logged in users
+@login_required  # Flask-Login uses this decorator to restrict access to logged in users
 def crud():
     """obtains all Users from table and loads Admin Form"""
     return render_template("crud.html", table=users_all())
 
+@app_crud.route("/donate/")
+@login_required
+def donate():
+    return render_template("donate.html")
 
 # Flask-Login directs unauthorised users to this unauthorized_handler
 @login_manager.unauthorized_handler
@@ -40,12 +44,21 @@ def crud_login():
     if request.form:
         email = request.form.get("email")
         password = request.form.get("password")
+        rememberme = request.form.get("inputRemember")
 
         if login(email, password):       # zero index [0] used as email is a tuple
             return redirect(url_for('crud.crud'))
 
     # if not logged in, show the login page
     return render_template("login.html")
+
+
+@app_crud.route('/logout/', methods=["GET", "POST"])
+def crud_logout():
+    # obtains form inputs and fulfills login requirements
+    logout_user()
+    # if not logged in, show the login page
+    return redirect(url_for('crud.crud_login'))
 
 
 @app_crud.route('/authorize/', methods=["GET", "POST"])
