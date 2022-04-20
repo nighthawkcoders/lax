@@ -9,21 +9,21 @@ app_homepages = Blueprint('homepages', __name__,
 
 
 @app_homepages.route('/aboutAllison/')
-def aboutArch():
+def aboutAllison():
     return render_template("aboutAllison.html")
 
 @app_homepages.route('/aboutBria/')
-def connor_homepage():
+def aboutBria():
     return render_template("aboutBria.html")
 
 @app_homepages.route('/aboutChristina/')
-def davidhomepage():
+def aboutChristina():
     return render_template("aboutChristina.html")
 
 @app_homepages.route('/aboutDavid/')
-def derrickpage():
+def aboutDavid():
     return render_template("aboutDavid.html")
 
 @app_homepages.route('/aboutKaavya/')
-def reinhardtpage():
+def aboutKaavya():
     return render_template("aboutKaavya.html")
