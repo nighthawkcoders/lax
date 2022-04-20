@@ -19,6 +19,12 @@ def signup():
     return render_template("signup.html")
 
 
+@app.route('/calendar/')
+def calendar():
+    return render_template("calendar.html")
+
+
+
 
 
 # from image import hide_msg
