@@ -17,18 +17,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
-            About Us
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <a class="dropdown-item" href={{ url_for('homepages.aboutAllison') }}>Allison</a>
-            <a class="dropdown-item" href={{ url_for('homepages.aboutBria') }}>Bria</a>
-            <a class="dropdown-item" href={{ url_for('homepages.aboutChristina') }}>Christina</a>
-            <a class="dropdown-item" href={{ url_for('homepages.aboutDavid') }}>David</a>
-            <a class="dropdown-item" href={{ url_for('homepages.aboutKaavya') }}>Kaavya</a>
-        </div>
-    </li>
+
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav">
             <li><a class="nav-link" href={{ url_for('index') }}>Home</a></li>
@@ -37,7 +26,19 @@
             <li><a class="nav-link" href={{ url_for('crud.crud') }}>Crud</a></li>
             <li><a class="nav-link" href={{ url_for('crud.donate') }}>Donate</a></li>
             <li><a class="nav-link" href={{ url_for('crud.contact') }}>Contact</a></li>
-            <li><a class="nav-link" href="/search/">Search</a></li>
+            <li><a class="nav-link" href={{ url_for('crud.search') }}>Search</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
+                    About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a class="dropdown-item" href={{ url_for('homepages.aboutAllison') }}>Allison</a>
+                    <a class="dropdown-item" href={{ url_for('homepages.aboutBria') }}>Bria</a>
+                    <a class="dropdown-item" href={{ url_for('homepages.aboutChristina') }}>Christina</a>
+                    <a class="dropdown-item" href={{ url_for('homepages.aboutDavid') }}>David</a>
+                    <a class="dropdown-item" href={{ url_for('homepages.aboutKaavya') }}>Kaavya</a>
+                </div>
+            </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li>

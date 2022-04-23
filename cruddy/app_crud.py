@@ -7,7 +7,7 @@ from cruddy.query import *
 # blueprint defaults https://flask.palletsprojects.com/en/2.0.x/api/#blueprint-objects
 app_crud = Blueprint('crud', __name__,
                      url_prefix='/crud',
-                     template_folder='templates',
+                     template_folder='templates/crud',
                      static_folder='static',
                      static_url_path='static')
 
@@ -33,11 +33,6 @@ def donate():
 @app_crud.route("/contact/")
 def contact():
     return render_template("contact.html")
-
-@app_crud.route('/search/')
-def search():
-    """obtains all Users from table and loads Admin Form"""
-    return render_template("search.html", table=users_all())
 
 # Flask-Login directs unauthorised users to this unauthorized_handler
 @login_manager.unauthorized_handler
@@ -143,7 +138,7 @@ def delete():
 @app_crud.route('/search/')
 def search():
     """loads form to search Users data"""
-    return render_template("search.html")
+    return render_template("search.html", table=users_all())
 
 
 # Search request and response

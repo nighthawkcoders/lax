@@ -1,34 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-{% extends "layouts/base.html" %}
-<style>
-    html, body{
-        margin: 0;
-        height: 100%;
-        animation: fadein 2s;
-        -moz-animation: fadein 2s; /* Firefox */
-        -webkit-animation: fadein 2s; /* Safari and Chrome */
-        -o-animation: fadein 2s; /* Opera */
-        background-image: url('https://mcdn.wallpapersafari.com/medium/51/9/A0YSpE.jpg');
-        background-repeat: no-repeat;
-        background-size: 1550px 800px;
-        background-attachment: fixed;
-        font-family: "Comic Sans MS";
-    }
-</style>
+
 {% block meta %}
 <meta charset="UTF-8">
 <title>About Allison</title>
 <script>
     function davidMask(){
         document.getElementById('myImage')
-            .src="../static/img/David-Xie-mask-on.jpg";
+            .src="../../../static/img/David-Xie-mask-on.jpg";
         document.getElementById('message')
     }
 
     function davidNoMask(){
         document.getElementById('myImage')
-            .src="../static/img/David-Xie-mask-off.JPG";
+            .src="../../../static/img/David-Xie-mask-off.JPG";
         document.getElementById('message')
     }
 </script>
