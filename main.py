@@ -2,9 +2,10 @@ from flask import render_template
 from __init__ import app, COOKIE_TIME_OUT
 
 from cruddy.app_crud import app_crud
-
+from homepages.homepages import app_homepages
 
 app.register_blueprint(app_crud)
+app.register_blueprint(app_homepages)
 # create an instance of flask object
 
 

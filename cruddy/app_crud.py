@@ -30,6 +30,15 @@ def crud():
 def donate():
     return render_template("donate.html")
 
+@app_crud.route("/contact/")
+def contact():
+    return render_template("contact.html")
+
+@app_crud.route('/search/')
+def search():
+    """obtains all Users from table and loads Admin Form"""
+    return render_template("search.html", table=users_all())
+
 # Flask-Login directs unauthorised users to this unauthorized_handler
 @login_manager.unauthorized_handler
 def unauthorized():
