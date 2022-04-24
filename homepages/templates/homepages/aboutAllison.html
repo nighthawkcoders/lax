@@ -5,15 +5,15 @@
 <meta charset="UTF-8">
 <title>About Allison</title>
 <script>
-    function davidMask(){
+    function Mask(){
         document.getElementById('myImage')
-            .src="../../../static/img/David-Xie-mask-on.jpg";
+            .src="../../../static/img/mask_on_allison.JPG";
         document.getElementById('message')
     }
 
-    function davidNoMask(){
+    function NoMask(){
         document.getElementById('myImage')
-            .src="../../../static/img/David-Xie-mask-off.JPG";
+            .src="../../../static/img/mask_off_allison.jpg";
         document.getElementById('message')
     }
 </script>
@@ -23,15 +23,15 @@
 
 <div class=imageContainer>
     <img id="myImage"
-         src="../../../static/img/David-Xie-mask-on.jpg" width="530" height="300"/>
+         src="../../../static/img/mask_on_allison.JPG" width="400" height="500"/>
 </div>
 <div class="button">
     <button class="btn btn-warning"
-            onclick=davidMask();>
+            onclick=Mask();>
         Mask
     </button>
     <button  class="btn btn-success"
-             onclick=davidNoMask();>
+             onclick=NoMask();>
         No Mask
     </button>
 </div>
