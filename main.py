@@ -24,6 +24,11 @@ def signup():
 def calendar():
     return render_template("calendar.html")
 
+@app.route('/photoupload/')
+def photoupload():
+    return render_template("photoupload.html")
+
+
 
 
 
