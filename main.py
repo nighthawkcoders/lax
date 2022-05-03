@@ -28,6 +28,11 @@ def calendar():
 def photoupload():
     return render_template("photoupload.html")
 
+@app.route('/photogallery/')
+def photogallery():
+    return render_template("photogallery.html")
+
+
 
 
 
