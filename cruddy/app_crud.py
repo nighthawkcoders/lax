@@ -42,6 +42,10 @@ def login_required(func):
 def contact():
     return render_template("contact.html")
 
+@app_crud.route("/roster/")
+def roster():
+    return render_template("roster.html")
+
 # Flask-Login directs unauthorised users to this unauthorized_handler
 @login_manager.unauthorized_handler
 def unauthorized():
