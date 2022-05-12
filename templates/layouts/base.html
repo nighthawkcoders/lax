@@ -1,16 +1,61 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Team WISD</title>
+    <style>
+        header {
+            padding-bottom: 16px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid #eeece8;
+            font-family: sans-serif, "Arial Narrow";
+            font-stretch: expanded;
+            color: black;
+            font-size: x-large;
+            margin: 2% 5% 5% 2%;
+        }
+
+        h1 {
+            color: black;
+            font: helvetica;
+            font-size: larger;
+            margin: 2% 5% 5% 2%;
+            text-align: left;
+        }
+
+        p {
+            color: black;
+            font: helvetica;
+            font-size: small;
+        }
+
+        body {
+            /* margin: 50px; */
+            /* margin: 2% 5% 5% 2%; */
+            background-color: white;
+            margin: 1% 10% 3% 10%;
+        }
+
+    </style>
+
+    <title>Del Norte Boys Lacrosse</title>
     {%block head%}
 
     {%endblock%}
 </head>
 
 <body>
-{% include "layouts/navbar.html" %}
-{%block body%}
+<div style="margin: 1% 10% 3% 10%; border-bottom: 1px solid #eeece8;">
+    <a class="navbar-brand">
+        <img src="/static/assets/logo.jpeg" width="50" height="50" class="d-inline-block align-center">
+    </a>
+    <h1>DEL NORTE BOYS LACROSSE</h1>
+</div>
 
+<div style="margin: 1% 10% 3% 10%; align-content: right; border-bottom: 1px solid #eeece8;"" >
+    {% include "layouts/navbar.html" %}
+</div>
+
+{%block body%}
 {%endblock%}
+
 </body>
 </html>
