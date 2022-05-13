@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+{% include "layouts/base.html" %}
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Lacrosse Teams Roster</title>
 </head>
+{% block body %}
 <body>
 
 <h1>Top 5 Boys Lacrosse Teams</h1>
@@ -92,4 +94,5 @@
 <h2>For full roster, click <a href="https://usclublax.com/rank?v=2025&alpha=N&y=2020">this link</a></h2>
 
 </body>
+{% endblock %}
 </html>
