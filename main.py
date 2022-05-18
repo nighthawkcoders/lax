@@ -32,6 +32,14 @@ def photoupload():
 def photogallery():
     return render_template("photogallery.html")
 
+@app.route('/wallOfFame/')
+def wallOfFame():
+    return render_template("awards/wallOfFame.html")
+
+@app.route('/alumni/')
+def alumni():
+    return render_template("awards/alumni.html")
+
 
 
 
