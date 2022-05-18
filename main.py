@@ -157,6 +157,14 @@ def khushi():
     # starting and empty input default
     return render_template("team/khushi.html", name="World")
 
+@app.route('/wallOfFame/')
+def wallOfFame():
+    return render_template("awards/wallOfFame.html")
+
+@app.route('/alumni/')
+def alumni():
+    return render_template("awards/alumni.html")
+
 
 @app.route('/newapi', methods=['GET', 'POST'])
 def newapi():
