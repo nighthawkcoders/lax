@@ -3,9 +3,11 @@ from __init__ import app, COOKIE_TIME_OUT
 
 from cruddy.app_crud import app_crud
 from homepages.homepages import app_homepages
+from app_notes import app_notes
 
 app.register_blueprint(app_crud)
 app.register_blueprint(app_homepages)
+app.register_blueprint(app_notes)
 # create an instance of flask object
 
 
@@ -24,9 +26,9 @@ def signup():
 def calendar():
     return render_template("calendar.html")
 
-@app.route('/photoupload/')
-def photoupload():
-    return render_template("photoupload.html")
+@app.route('/notes/')
+def notes():
+    return render_template("notes.html")
 
 @app.route('/wallOfFame/')
 def wallOfFame():
@@ -36,10 +38,13 @@ def wallOfFame():
 def alumni():
     return render_template("awards/alumni.html")
 
+@app.route("/contact/")
+def contact():
+    return render_template("contact.html")
 
-
-
-
+@app.route("/roster/")
+def roster():
+    return render_template("roster.html")
 
 
 # from image import hide_msg
