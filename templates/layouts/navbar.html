@@ -23,13 +23,13 @@
         <ul class="navbar-nav">
             <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('index') }}>Home</a></li>
             <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('signup') }}>Sign Up</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('photoupload') }}>Upload Photos</a></li>
+            <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('notes') }}>Upload Photos</a></li>
             <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('calendar') }}>Week At a Glance</a></li>
             <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('crud.crud') }}>Crud</a></li>
             <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('crud.donate') }}>Donate</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('crud.contact') }}>Contact</a></li>
+            <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('contact') }}>Contact</a></li>
             <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('crud.search') }}>Search</a>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('crud.roster') }}>Roster</a>
+            <li><a style= "color: #d7b321;" class="nav-link" href={{ url_for('roster') }}>Roster</a>
             <li class="nav-item dropdown">
                 <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
                     About Us
@@ -40,6 +40,17 @@
                     <a style= "color: #d7b321;" class="dropdown-item" href={{ url_for('homepages.aboutChristina') }}>Christina</a>
                     <a style= "color: #d7b321;" class="dropdown-item" href={{ url_for('homepages.aboutDavid') }}>David</a>
                     <a style= "color: #d7b321;" class="dropdown-item" href={{ url_for('homepages.aboutKaavya') }}>Kaavya</a>
+                </div>
+
+            </li>
+
+            <li class="nav-item dropdown">
+                <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
+                    Awards
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a style= "color: #d7b321;" class="dropdown-item" href={{ url_for('wallOfFame') }}>Wall Of Fame</a>
+                    <a style= "color: #d7b321;" class="dropdown-item" href={{ url_for('alumni') }}>NightHawks at the Next Level</a>
                 </div>
             </li>
         </ul>
