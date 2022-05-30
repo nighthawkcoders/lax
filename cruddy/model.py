@@ -48,6 +48,12 @@ class Notes(db.Model):
         except IntegrityError:
             db.session.remove()
             return None
+    # CRUD delete: remove self
+    # None
+    def delete(self):
+        db.session.delete(self)
+        db.session.commit()
+        return None
 
 # Tutorial: https://www.sqlalchemy.org/library.html#tutorials, try to get into Python shell and follow along
 
@@ -63,7 +69,10 @@ class Users(UserMixin, db.Model):
     email = db.Column(db.String(255), unique=True, nullable=False)
     password = db.Column(db.String(255), unique=False, nullable=False)
     phone = db.Column(db.String(255), unique=False, nullable=False)
-
+    # Defines a relationship between User record and Notes table, one-to-many (one user to many notes)
+    notes = db.relationship("Notes", cascade='all, delete', backref='users', lazy=True)
+    #lazy defines when  SQLAlchemy will load the data  from the database: True (which is the default)
+    # means that SQLAlchemy will load the data as necessary in one go using a standard 'select' statement.
     # constructor of a User object, initializes of instance variables within object
     def __init__(self, name, email, password, phone):
         self.name = name
@@ -165,6 +174,10 @@ def model_printer():
     result = db.session.execute('select * from users')
     print(result.keys())
     for row in result:
+        print(row)
+    result2 = db.session.execute('select * from notes')
+    print(result2.keys())
+    for row in result2:
         print(row)
 
 
