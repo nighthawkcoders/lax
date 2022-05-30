@@ -66,6 +66,7 @@ class Notes(db.Model):
 # -- b.) Users represents data we want to store, something that is built on db.Model
 # -- c.) SQLAlchemy ORM is layer on top of SQLAlchemy Core, then SQLAlchemy engine, SQL
 class Users(UserMixin, db.Model):
+    __tablename__ = 'users'
     # define the Users schema
     userID = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255), unique=False, nullable=False)
