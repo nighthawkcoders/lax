@@ -26,10 +26,6 @@ def signup():
 def calendar():
     return render_template("calendar.html")
 
-@app.route('/notes/')
-def notes():
-    return render_template("notes.html")
-
 @app.route('/wallOfFame/')
 def wallOfFame():
     return render_template("awards/wallOfFame.html")

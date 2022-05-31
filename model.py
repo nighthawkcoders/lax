@@ -77,7 +77,7 @@ class Users(UserMixin, db.Model):
     notes = db.relationship("Notes", cascade='all, delete', backref='users', lazy=True)
     #lazy defines when  SQLAlchemy will load the data  from the database: True (which is the default)
     # means that SQLAlchemy will load the data as necessary in one go using a standard 'select' statement.
-    # constructor of a User object, initializes of instance variables within object
+
     # constructor of a User object, initializes of instance variables within object
 
     def __init__(self, name, email, password, phone):
