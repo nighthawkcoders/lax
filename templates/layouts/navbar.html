@@ -23,15 +23,28 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav">
             <li> <a style= "color: #d7b321;" class="nav-link" href={{url_for('index')}}>Home</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('signup')}}>Sign Up</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('notes.notes')}}>Upload Photos</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('calendar')}}>Week At a Glance</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.crud')}}>Crud</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.donate')}}>Donate</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('contact')}}>Contact</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.search')}}>Search</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('roster')}}>Roster</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('upload.upload')}}>Upload</a></li>
+
+            <li class="nav-item dropdown">
+                <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
+                    Notepad
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('notes.notes')}}>Upload Photos</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('upload.upload')}}>Upload</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
+                    General Information
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('calendar')}}>Week At a Glance</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.donate')}}>Donate</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('contact')}}>Contact</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('roster')}}>Roster</a>
+                </div>
+            </li>
+
             <li class="nav-item dropdown">
                 <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
                     About Us
@@ -55,6 +68,10 @@
                     <a style= "color: #d7b321;" class="dropdown-item" href={{url_for('alumni')}}>NightHawks at the Next Level</a>
                 </div>
             </li>
+
+            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('signup')}}>Sign Up</a></li>
+            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.crud')}}>Crud</a></li>
+            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.search')}}>Search</a></li>
         </ul>
 
 
