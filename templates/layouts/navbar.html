@@ -26,15 +26,6 @@
 
             <li class="nav-item dropdown">
                 <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
-                    Notepad
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('notes.notes')}}>Upload Photos</a>
-                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('upload.upload')}}>Upload</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
                     General Information
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -44,7 +35,7 @@
                     <a style= "color: #d7b321;" class="nav-link" href={{url_for('roster')}}>Roster</a>
                 </div>
             </li>
-
+<!--
             <li class="nav-item dropdown">
                 <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
                     About Us
@@ -56,7 +47,7 @@
                     <a style= "color: #d7b321;" class="dropdown-item" href={{url_for('homepages.aboutDavid')}}>David</a>
                     <a style= "color: #d7b321;" class="dropdown-item" href={{url_for('homepages.aboutKaavya')}}>Kaavya</a>
                 </div>
-
+-->
             </li>
 
             <li class="nav-item dropdown">
@@ -69,11 +60,23 @@
                 </div>
             </li>
 
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('signup')}}>Sign Up</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.crud')}}>Crud</a></li>
-            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.search')}}>Search</a></li>
-        </ul>
+            {% if current_user.is_authenticated %}
+            <li class="nav-item dropdown">
+                <a style= "color: #d7b321;" class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" id="dropdownMenuButton1" type="button">
+                    Admin
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('notes.notes')}}>Home Photos</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('upload.upload')}}>Wall of Fame</a>
+                    <a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.crud')}}>Roster</a>
+                </div>
+            </li>
+            {% endif %}
 
+
+            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('crud.search')}}>Search</a></li>
+            <li><a style= "color: #d7b321;" class="nav-link" href={{url_for('signup')}}>Register</a></li>
+        </ul>
 
         <ul class="nav navbar-nav navbar-right">
             <li>
