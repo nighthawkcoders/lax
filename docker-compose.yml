@@ -1,0 +1,7 @@
+version: '3'
+services:
+        web:
+                image: python_laxv1
+                build: .
+                ports:
+                        - "8084:8080"
